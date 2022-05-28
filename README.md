@@ -11,8 +11,8 @@ A lab to test the [Cilium Kubernetes CNI](https://docs.cilium.io/en/stable/) and
 Create instances for the cluster with [Multipass](https://multipass.run/docs):
 
 ```bash
-multipass launch --name server --mem 2G --cpus 2
-multipass launch --name worker --mem 4G --cpus 2
+multipass launch --name server --mem 2G --cpus 2 --disk 10G
+multipass launch --name worker --mem 4G --cpus 2 --disk 10G
 
 $ multipass list
 Name                    State             IPv4             Image

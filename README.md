@@ -2,6 +2,8 @@
 
 A lab to test the [Cilium Kubernetes CNI](https://docs.cilium.io/en/stable/) and its observability capabilities.
 
+<img src="docs/images/cilium-logo.png" width="250px">
+
 ## Requirements
 
 ### Create VMs

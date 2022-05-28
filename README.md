@@ -80,7 +80,7 @@ Install the Cilium CLI on your workstation.
 [Documentation for Cilium CLI installation](https://docs.cilium.io/en/stable/gettingstarted/k8s-install-default/#install-the-cilium-cli)
 
 ```bash
-# M
+# For MacOS
 curl -L --remote-name-all https://github.com/cilium/cilium-cli/releases/latest/download/cilium-darwin-amd64.tar.gz{,.sha256sum}
 shasum -a 256 -c cilium-darwin-amd64.tar.gz.sha256sum
 sudo tar xzvfC cilium-darwin-amd64.tar.gz /usr/local/bin
@@ -219,3 +219,8 @@ Then consult the UI with the command `cilium hubble ui` that rely on port-forwar
 
 <img src="docs/images/hubble-ui.png" width="400px">
 
+Let's deploy a demo app to see more flows! 
+
+I chose to use the [voting-app](https://github.com/dockersamples/example-voting-app) from Docker.
+
+<img src="docs/images/voting-app.png" width="400px">

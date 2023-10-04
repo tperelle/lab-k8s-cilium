@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: lab-k8s-cilium
 spec:
-  lifecycle: development
+  lifecycle: experimental
+  system: github
   type: tutorial
   owner: thomas

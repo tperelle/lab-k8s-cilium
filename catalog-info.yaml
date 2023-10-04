@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: lab-k8s-cilium
+  description: A lab to test the Cilium Kubernetes CNI and its observability capabilities.
 spec:
   lifecycle: experimental
   system: github

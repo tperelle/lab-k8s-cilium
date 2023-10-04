@@ -9,5 +9,5 @@ metadata:
 spec:
   lifecycle: experimental
   system: github
-  type: tutorial
+  type: article
   owner: thomas
